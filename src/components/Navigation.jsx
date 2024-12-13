@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Sidebar from './Sidebar'
-import { navLinks } from '../assets/constants/constants'; 
+import { navLinks } from '../../public/assets/constants/constants'; 
 import { useWindowSize } from "@uidotdev/usehooks";
 import { Link, useLocation } from 'react-router-dom';
 

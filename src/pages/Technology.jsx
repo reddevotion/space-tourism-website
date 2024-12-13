@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Navigation from '../components/Navigation'
-import bgMobileImage from '../assets/technology/background-technology-tablet.jpg';
-import bgDesktopImage from '../assets/technology/background-technology-desktop.jpg';
+import bgMobileImage from '../../public/assets/technology/background-technology-tablet.jpg';
+import bgDesktopImage from '../../public/assets/technology/background-technology-desktop.jpg';
 import { useWindowSize } from "@uidotdev/usehooks";
-import pagedata from "../assets/constants/data.json";
+import pagedata from "../../public/assets/constants/data.json";
 
 const Technology = () => {
 

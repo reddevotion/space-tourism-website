@@ -1,5 +1,5 @@
 import React from 'react';
-import { navLinks } from '../assets/constants/constants'; 
+import { navLinks } from '../../public/assets/constants/constants'; 
 import { Link, useLocation } from 'react-router-dom';
 
 const Sidebar = ({className, close}) => {
