@@ -41,7 +41,7 @@ const size = useWindowSize();
                 ))}
               </ul>
             </div>
-              <div className='w-full h-[400px] md:h-full flex justify-center items-end relative z-20 '><img className='w-auto relative z-20 h-[340px] md:h-[450px] lg:h-[560px]' src={selectedMember.images.png} alt={crew.name} /></div>
+              <div className='w-full h-[400px] md:h-full flex justify-center items-end relative z-20 '><img className='w-auto relative z-20 h-[340px] md:h-[450px] lg:h-[560px]' src={import.meta.env.BASE_URL + selectedMember.images.png} alt={crew.name} /></div>
           </div>
         </section>
     </main>

@@ -28,7 +28,7 @@ const Destination = () => {
     </div>
     <div className='grid gap-8 w-full lg:grid-cols-2'>
       <div className='flex justify-center items-center lg:justify-start'>
-        <img className='h-[150px] w-[150px] md:h-[300px] md:w-[300px] lg:h-[480px] lg:w-[480px] transition-all duration-700' src={selectedPlanet.images.png} alt={destinations[0].name} />
+        <img className='h-[150px] w-[150px] md:h-[300px] md:w-[300px] lg:h-[480px] lg:w-[480px] transition-all duration-700' src={import.meta.env.BASE_URL + selectedPlanet.images.png} alt={destinations[0].name} />
       </div>
       <div className='flex flex-col gap-6'>
         <ul className='flex w-full gap-8 justify-center lg:justify-start'>

@@ -27,7 +27,7 @@ const Technology = () => {
             <p className='h2 text-center md:text-left font-barlowcon uppercase text-color-3'><span className='text-color-3/50 mr-6'>03</span>Space launch 101</p>
           </div>
           <div className='flex flex-col w-full lg:flex-row-reverse gap-12'>
-          <div className={`${size.width <= 1024 ? 'w-[100vw] max-h-[258px] md:max-h-[300px]' : ''} lg:h-full lg:w-full`}><img className='w-full max-h-[300px] lg:max-h-full' src={size.width <= 1024 ? selectedTechnology.images.landscape : selectedTechnology.images.portrait} alt={selectedTechnology.name} /></div>
+          <div className={`${size.width <= 1024 ? 'w-[100vw] max-h-[258px] md:max-h-[300px]' : ''} lg:h-full lg:w-full`}><img className='w-full max-h-[300px] lg:max-h-full' src={size.width <= 1024 ? import.meta.env.BASE_URL + selectedTechnology.images.landscape : import.meta.env.BASE_URL + selectedTechnology.images.portrait} alt={selectedTechnology.name} /></div>
             <div className='flex flex-col lg:flex-row gap-6 w-full justify-between'>
               <ul className='flex gap-4 lg:flex-col justify-center w-full lg:w-[80px] h5 font-ballefair text-color-3 mb-8 lg:mb-0'>
                 {technology.map((item, index) => (
