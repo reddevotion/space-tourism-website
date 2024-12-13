@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const NotFoundPage = () => {
+  window.location.replace("/space-tourism-website");
   return (
     <>
     <main className='h-[100vh] w-full bg-color-1 flex flex-col justify-between p-[6rem]'>
