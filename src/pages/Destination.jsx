@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Navigation from '../components/Navigation'
-import bgMobileImage from '../../public/assets/destination/background-destination-tablet.jpg';
-import bgDesktopImage from '../../public/assets/destination/background-destination-desktop.jpg';
+import bgMobileImage from '../../public/images/destination/background-destination-tablet.jpg';
+import bgDesktopImage from '../../public/images/destination/background-destination-desktop.jpg';
 import { useWindowSize } from "@uidotdev/usehooks";
-import pagedata from "../../public/assets/constants/data.json";
+import pagedata from "../../public/images/constants/data.json";
 
 const Destination = () => {
 

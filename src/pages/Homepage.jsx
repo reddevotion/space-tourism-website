@@ -1,5 +1,5 @@
-import bgMobileImage from '../../public/assets/home/background-home-mobile.jpg';
-import bgDesktopImage from '../../public/assets/home/background-home-desktop.jpg';
+import bgMobileImage from '../../public/images/home/background-home-mobile.jpg';
+import bgDesktopImage from '../../public/images/home/background-home-desktop.jpg';
 import Navigation from '../components/Navigation';
 import { useWindowSize } from "@uidotdev/usehooks";
 import { Link } from 'react-router-dom';
