@@ -10,9 +10,8 @@ import NotFoundPage from './pages/NotFoundPage.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/space-tourism-website/',
+    path: '/',
     element: <Homepage/>,
-    errorElement: <NotFoundPage/>
 },
 {
   path: '/destination',
