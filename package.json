@@ -2,7 +2,7 @@
   "name": "space-tourism-website-main",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://reddevotion.github.io/space-tourism-website/",
+  "homepage": "https://reddevotion.github.io/space-tourism-website",
   "type": "module",
   "scripts": {
     "dev": "vite",
